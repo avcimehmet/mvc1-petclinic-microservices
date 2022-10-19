@@ -1,6 +1,6 @@
 # Environment variables
 PATH="$PATH:/usr/local/bin"
-APP_NAME="Petclinic"
+APP_NAME="Petclinic" # as desired
 ANS_KEYPAIR="petclinic-$APP_NAME-dev-${BUILD_NUMBER}.key"
 AWS_REGION="us-east-1"
 export ANSIBLE_PRIVATE_KEY_FILE="${WORKSPACE}/${ANS_KEYPAIR}"
